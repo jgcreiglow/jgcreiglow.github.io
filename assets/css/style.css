@@ -23,7 +23,7 @@ a{
 
 a:hover{
   text-decoration: none;
-color: white;
+  color: white;
   background-color:salmon;
   border-radius: 2%;
 }
@@ -38,11 +38,16 @@ color: white;
 
 .icon {
   text-decoration: none;
+  margin-top: 10px;
   margin-right: 10px;
   font-family: 'Open Sans Condensed', sans-serif;
-  color: salmon;
-  height: 30px;
+  font-size: 30px;
 } 
+i:hover{
+  text-decoration: none;
+  color: white;
+  border-radius: 2%;
+}
 
 hover {
   text-decoration: none;
