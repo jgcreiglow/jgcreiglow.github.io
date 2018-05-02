@@ -11,12 +11,24 @@ body{
 }
 
 /* nav bar */
-.nav-pills{
+.nav{
   margin-top: 20px;
+
+}
+a{
+  text-decoration: none;
+  color: salmon;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 
-.navBtn {
+a:hover{
   text-decoration: none;
+  background-color: rgba(238,118,116, 0.1);
+  color:salmon;
+}
+.navItem {
+  text-decoration: none;
+  margin-right: 10px;
   font-family: 'Open Sans Condensed', sans-serif;
   font-size: 30px;
   color: salmon;
@@ -60,6 +72,11 @@ p  {
   font-family: 'Open Sans Condensed', sans-serif;
   font-size: 30px;
 }
+/* .card-text {
+  color: darkgray;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 15px;
+} */
 h2{
   padding:10px;
   color:white;
@@ -67,6 +84,12 @@ h2{
   font-size:50px;
 }
 
+h5{
+  padding:5px;
+  color:white;
+  font-family: 'Open Sans Condensed', sans-serif;
+
+}
 
 /* Portfolio images */
 

@@ -2,7 +2,7 @@
 <html lang="en-us">
 
 <head>
-     <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title> Jessica Creiglow: Web Developer</title>
 
@@ -10,7 +10,8 @@
   <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
 
   <!-- Bootstrap -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+    crossorigin="anonymous">
 
   <!-- CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
@@ -31,11 +32,20 @@
     <div class="col-md-3">
     </div>
     <div class="col-xs-12 col-md-4">
-      <ul class="nav nav-pills">
-        <li role="presentation"><a class="navBtn hvr-grow-shadow" href="./index.html">About</a></li>
-        <li role="presentation"><a class="navBtn hvr-grow-shadow" href="./index.html">Resume</a></li>
-        <li role="presentation"><a class="navBtn hvr-grow-shadow" href="./portfolio.html">Portfolio</a></li>
-        <li role="presentation"><a class="navBtn hvr-grow-shadow" href="./contact.html">Contact</a> </li>
+      <ul class="nav">
+        <li role="presentation">
+          <a class="navItem hvr-grow-shadow" href="./index.html">About</a>
+        </li>
+        <li role="presentation">
+          <a class="navItem hvr-grow-shadow" href="https://drive.google.com/file/d/1ibxy9FRtFnCrghGA7su0TvxMIEO1vbU8/view?usp=sharing"
+            target="_blank">Resume</a>
+        </li>
+        <li role="presentation">
+          <a class="navItem hvr-grow-shadow" href="./portfolio.html">Portfolio</a>
+        </li>
+        <li role="presentation">
+          <a class="navItem hvr-grow-shadow" href="./contact.html">Contact</a>
+        </li>
       </ul>
     </div>
   </nav>
@@ -48,54 +58,45 @@
       <h2> Portfolio</h2>
       <hr>
       <!-- Images & Links to projects here -->
-      <div class="row" >
-        <div class= "col-xs-5 col-md-4 container-fluid ">
-          <a href="https://jgcreiglow.github.io/hangman-game/" target="_blank">
-              <div class="container-fluid hvr-grow-shadow">
-                <img class="img-responsive"  src="./assets/images/game.png" alt="hangman game">
-                <div class="centered" align="centered"> Hangman</div>
-              </div>
-          </a>
+      <div class="row">
+
+        <!-- Night Out -->
+        <div class="card bodyBox col-md-3">
+          <img class="card-img" src="./assets/images/nightout.png" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title text-center"> NightOut</h5>
+            <a href="https://datenightout.herokuapp.com" class="btn btn-primary">LiveSite</a>
+            <a href="https://github.com/jgcreiglow/nightout" class="btn btn-primary">GitHub</a>
+          </div>
         </div>
-        <div class= "col-xs-5 col-md-4 container-fluid">
-          <a href="https://jgcreiglow.github.io/week-4-game/" target="_blank">
-              <div class="container-fluid hvr-grow-shadow">
-                <img class="img-responsive "  src="./assets/images/game.png" alt="crystal collector game">
-                <div class="centered" align="centered"> Crystal Collector</div>
-              </div>
-          </a>
+        <!-- Doctor Who-->
+        <div class="card bodyBox col-md-3">
+          <img class="card-img-top" src="./assets/images/drwho.png" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title text-center"> Dr. Who Memory Game</h5>
+            <a href="https://shielded-brook-73907.herokuapp.com/" class="btn btn-primary">LiveSite</a>
+            <a href="https://github.com/jgcreiglow/doctor-who-clicky-game" class="btn btn-primary">GitHub</a>
+          </div>
         </div>
-        <div class= "col-xs-5 col-md-4 container-fluid ">
-          <a href="https://jgcreiglow.github.io/maGIFicent/" target="_blank">
-              <div class="container-fluid  hvr-grow-shadow">
-                <img class="img-responsive"  src="./assets/images/website.png" alt="gif generator">
-                <div class="centered" align="centered"> Gif Generator</div>
-              </div>
-          </a>
+
+        <!--Date Night Generator -->
+        <div class="card bodyBox col-md-3">
+          <img class="card-img-top" src="./assets/images/date_generator.png" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title text-center"> Date Night Generator</h5>
+            <a href="https://date-night-generator.herokuapp.com/" class="btn btn-primary">LiveSite</a>
+            <a href="https://github.com/jgcreiglow/date-night-generator" class="btn btn-primary">GitHub</a>
+          </div>
         </div>
-        <div class= "col-xs-5 col-md-4 container-fluid ">
-          <a href="http://date-night-generator.herokuapp.com" target="_blank">
-              <div class="container-fluid  hvr-grow-shadow">
-                <img class="img-responsive"  src="./assets/images/website.png" alt="date night generator">
-                <div class="centered" align="centered"> Date Night Generator</div>
-              </div>
-          </a>
-        </div>
-        <div class= "col-xs-5  col-md-4 container-fluid ">
-          <a href=" https://jgcreiglow.github.io/trivia-game/" target="_blank">
-              <div class="container-fluid  hvr-grow-shadow">
-                <img class="img-responsive"  src="./assets/images/game.png" alt="Trivia Game">
-                <div class="centered" align="centered">Nintendo Trivia</div>
-              </div>
-          </a>
-        </div>
-        <div class= "col-xs-5 col-md-4 container-fluid ">
-          <a href="https://shielded-brook-73907.herokuapp.com/" target="_blank">
-              <div class="container-fluid  hvr-grow-shadow">
-                <img class="img-responsive"  src="./assets/images/website.png" alt="burgertyme">
-                <div class="centered" align="centered">Doctor Who Memory Game</div>
-              </div>
-          </a>
+
+        <!-- MaGIFicent -->
+        <div class="card bodyBox col-md-3">
+          <img class="card-img-top" src="./assets/images/magificent.png" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title text-center"> MaGIFicent</h5>
+            <a href="https://jgcreiglow.github.io/maGIFicent/" class="btn btn-primary">LiveSite</a>
+            <a href="https://github.com/jgcreiglow/maGIFicent" class="btn btn-primary">GitHub</a>
+          </div>
         </div>
 
       </div>
@@ -105,8 +106,8 @@
 
   <!-- Footer -->
 
-  <nav class="navbar navbar-default navbar-fixed-bottom">
-    <div class="container" align="center">
+  <nav class="navbar navbar-fixed-bottom fixed-bottom">
+    <div>
       <a href="https://github.com/jgcreiglow" target="blank">
         <img src="./assets/images/github.png">
       </a>
